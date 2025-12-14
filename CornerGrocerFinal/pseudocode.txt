@@ -1,0 +1,19 @@
+START
+- Open input file
+- Count items into unordered_map<string, int>
+- Write frequency.dat backup file
+
+WHILE true:
+    Show menu
+    IF option == 1:
+        Prompt for item name
+        Display frequency
+    ELSE IF option == 2:
+        Display all item:count pairs
+    ELSE IF option == 3:
+        Display item histograms
+    ELSE IF option == 4:
+        Exit loop
+    ELSE:
+        Prompt again (invalid input)
+END
